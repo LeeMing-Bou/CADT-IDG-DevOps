@@ -1,15 +1,15 @@
-# .github/workflows/test.yml
 name: Test API
-# When it's trigger
 on:
   push:
     branches: main
   pull_request:
     branches: main
-# Tasks
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-    - name: List Folders
+      - name: Clone Repo
+        # Terminal
+        run: git clone https://github.com/KimangKhenng/devops-cadt-2.git
+      - name: List folders
         run: ls
