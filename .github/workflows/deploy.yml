@@ -20,6 +20,6 @@ jobs:
             whoami
             pwd
             ls
-            cd CADT-IDG-DevOps
+            cd lmRepos
             git pull
-            pm2 restart devops-test
+            pm2 restart lmRepos
