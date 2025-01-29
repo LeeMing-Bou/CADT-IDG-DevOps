@@ -13,8 +13,8 @@ jobs:
         with:
           host: 167.86.93.59
           username: leeming
-          # key: ${{ secrets.SSH_KEY }}
-          key: admin
+          key: ${{ secrets.SSH_KEY }}
+          # key: admin
           port: 8899
           script: |
             . ~/.nvm/nvm.sh
