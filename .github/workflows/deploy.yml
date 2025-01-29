@@ -22,5 +22,5 @@ jobs:
             pwd
             ls
             cd CADT-IDG-DevOps
-            git pull origin main
+            git pull main
             pm2 restart CADT-DevOps
