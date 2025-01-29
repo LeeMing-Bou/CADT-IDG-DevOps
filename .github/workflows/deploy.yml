@@ -13,13 +13,14 @@ jobs:
         with:
           host: 167.86.93.59
           username: leeming
-          key: ${{ secrets.SSH_KEY }}
+          # key: ${{ secrets.SSH_KEY }}
+          key: admin
           port: 8899
           script: |
             . ~/.nvm/nvm.sh
             whoami
             pwd
             ls
-            cd CADT-DevOps
+            cd CADT-IDG-DevOps
             git pull
             pm2 restart CADT-DevOps
