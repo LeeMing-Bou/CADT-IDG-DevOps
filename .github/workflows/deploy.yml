@@ -22,6 +22,6 @@ jobs:
             pwd
             ls
             ls -ltra
-            cd CADT-IDG-DevOps
+            cd cadt-devops-test/CADT-IDG-DevOps
             git pull
             pm2 restart CADT-DevOps
