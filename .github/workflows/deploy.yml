@@ -21,7 +21,6 @@ jobs:
             whoami
             pwd
             ls
-            ls -ltra
             cd CADT-IDG-DevOps
             git pull
             pm2 restart CADT-DevOps
