@@ -23,4 +23,4 @@ jobs:
             ls
             cd CADT-IDG-DevOps
             git pull
-            # pm2 restart CADT-DevOps
+            pm2 restart test-server
